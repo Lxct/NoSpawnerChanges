@@ -11,5 +11,6 @@ public class NoSpawnerChanges extends JavaPlugin implements Listener {
         plugin = this;
         loadVariables();
         getServer().getPluginManager().registerEvents(new OnSpawnerChange(), this);
+        getCommand("Reload").setExecutor(new Reload());
     }
 }

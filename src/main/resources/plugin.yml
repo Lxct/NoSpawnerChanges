@@ -4,3 +4,7 @@ api-version: 1.13
 description: Prevent players from changing spawners.
 author: Lxct
 main: me.lxct.nospawnerchanges.NoSpawnerChanges
+commands:
+  nscreload:
+    description: Reload NoSpawnerChanges
+    permission: nsc.reload

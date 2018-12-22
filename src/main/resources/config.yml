@@ -8,7 +8,8 @@
 logChangesToConsole: false # Send a message in the console when changing a spawner
 allowChangesInCreative: true # Allow creative players to change spawners
 sendMessage: true # Send a message when the plugin block a player
-message: "You cannot change this spawner!"
+message: "&cYou cannot change this spawner!"
+reload: "&7NoSpawnerChanges successfully reloaded!"
 
 allowedMobs:
 #  - "ZOMBIE_SPAWN_EGG" # Uncomment to allow zombies

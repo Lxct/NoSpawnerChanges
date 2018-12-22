@@ -9,6 +9,7 @@ class Variables {
     static List<?> allowedMobList;
     static boolean sendMessage;
     static String message;
+    static String reload;
     static boolean allowChangesInCreative;
     static boolean logChangesToConsole;
 
@@ -16,11 +17,12 @@ class Variables {
 
         FileConfiguration config = NoSpawnerChanges.plugin.getConfig();
 
+        reload = config.getString("reload", "&7NoSpawnerChanges successfully reloaded!");
         allowedMobList = config.getList("allowedMobs");
-        sendMessage = config.getBoolean("sendMessage");
-        message = config.getString("message");
-        allowChangesInCreative = config.getBoolean("allowChangesInCreative");
-        logChangesToConsole = config.getBoolean("logChangesToConsole");
+        sendMessage = config.getBoolean("sendMessage", true);
+        message = config.getString("message", "&cYou cannot change this spawner!");
+        allowChangesInCreative = config.getBoolean("allowChangesInCreative", true);
+        logChangesToConsole = config.getBoolean("logChangesToConsole", false);
 
     }
 
