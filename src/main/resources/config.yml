@@ -1,0 +1,25 @@
+# No Spawner Changes
+# Prevent players from changing spawners easily.
+#
+# By Lxct.
+# Discord: https://discord.gg/fDCc8xG
+# ----------------------------------------------
+
+logChangesToConsole: false # Send a message in the console when changing a spawner
+allowChangesInCreative: true # Allow creative players to change spawners
+sendMessage: true # Send a message when the plugin block a player
+message: "You cannot change this spawner!"
+
+allowedMobs:
+#  - "ZOMBIE_SPAWN_EGG" # Uncomment to allow zombies
+
+# Example :
+#
+# allowedMobs:
+#   - "CAVE_SPIDER_SPAWN_EGG"
+#   - "ZOMBIE_SPAWN_EGG"
+#   - "SKELETON_SPAWN_EGG"
+#   - "SQUID_SPAWN_EGG"
+#
+#
+# (MOBNAME_SPAWN_EGG)

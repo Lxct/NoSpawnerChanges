@@ -1,6 +1,6 @@
 name: NoCollisionSpawner
 version: 1.0
 api-version: 1.13
-description: Disable collision for mobs coming from spawners.
+description: Prevent players from changing spawners.
 author: Lxct
-main: me.lxct.nocollisionspawner.NoCollisionSpawner
+main: me.lxct.nospawnerchanges.NoSpawnerChanges
